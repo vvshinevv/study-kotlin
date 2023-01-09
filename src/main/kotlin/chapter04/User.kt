@@ -1,18 +1,8 @@
 package chapter04
 
-class User(val name: String) {
-    var address: String = "unspecified"
-        set(value) {
-            println(
-                """
-            Address was changed for $name:
-            "$field" -> "$value"
-            """.trimIndent()
-            )
-            field = value
-        }
-}
-
-fun main() {
-
+class User(private val nickname: String) {
+    companion object {
+        fun newSubscribingUser(email: String) = User(email.substringBefore('@'))
+        fun newFacebookUser(accountId: Int) = User(accountId.toString())
+    }
 }
