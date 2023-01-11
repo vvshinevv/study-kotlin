@@ -1,4 +1,4 @@
-package chapter02
+package kotlininaction.chapter02
 
 import java.util.TreeMap
 
