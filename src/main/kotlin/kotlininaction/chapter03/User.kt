@@ -1,4 +1,4 @@
-package chapter03
+package kotlininaction.chapter03
 
 class User(val id: Int, val name: String, val address: String)
 

@@ -1,4 +1,4 @@
-package chapter03
+package kotlininaction.chapter03
 
 fun String.lastCharByHong(): Char = get(this.length - 1)
 

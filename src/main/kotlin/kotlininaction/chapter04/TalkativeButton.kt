@@ -1,4 +1,4 @@
-package chapter04
+package kotlininaction.chapter04
 
 internal open class TalkativeButton : Focusable {
     private fun yell() = println("hey")

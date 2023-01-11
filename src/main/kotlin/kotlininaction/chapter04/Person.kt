@@ -1,4 +1,4 @@
-package chapter04
+package kotlininaction.chapter04
 
 class Person(val name: String) {
     companion object : JSONFactory<Person> {

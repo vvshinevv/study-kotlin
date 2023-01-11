@@ -1,4 +1,4 @@
-package chapter04
+package kotlininaction.chapter04
 
 class User(private val nickname: String) {
     companion object {
