@@ -1,7 +1,9 @@
 package functionalprogramming.chapter03
 
 fun main() {
-    println(factorial(5))
+    val a = listOf<Int>(1) + listOf<Int>(2)
+    println(a)
+
 }
 
 fun power(x: Double, n: Int) : Double = when (n) {
