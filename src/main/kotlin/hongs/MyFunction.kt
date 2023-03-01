@@ -15,3 +15,11 @@ fun differ1(): () -> String {
 fun differ2(): () -> Unit = {
     println("aa")
 }
+
+fun test(flag: Boolean): String {
+    return if (flag) {
+        "true"
+    } else {
+        "false"
+    }
+}
