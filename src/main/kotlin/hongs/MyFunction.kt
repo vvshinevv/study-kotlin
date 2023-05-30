@@ -16,6 +16,7 @@ fun differ2(): () -> Unit = {
     println("aa")
 }
 // 주석
+// commit test
 fun test(flag: Boolean): String {
     return if (flag) {
         "true"
